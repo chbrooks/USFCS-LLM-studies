@@ -3,6 +3,7 @@
 ### Objective
 
 Using AI, generate a story plotline and then generate scenes and characters to populate the plotline, simply and interactively. Users may select from famous works to take inspiration from (“I want my story and world to be like Lord of the Rings.”), select genres and tropes (“I want it to be more of a dark fantasy cerebral horror / thriller.”), and enter prompt text to first generate a plotline; then they may alter the plot line in-place, request a rewrite with an optional prompt (“More HORROR”), and, when happy with the plot, have the AI generate scenarios and scenes for plot points.
+
 The initial motivation for this project is to make a resource for people who want to create their own story and world for personal use in a tabletop RPG like Dungeons and Dragons.
 
 ### Learning Goals
@@ -11,25 +12,24 @@ Experience with complex AI and tools used therewithin. Specifically, exploring N
 
 ### Tools
 
-Python, TensorFlow?
+Python, HuggingFace, perhaps PyTorch or TensorFlow
 
 ### Milestones
 
-1. Rough-draft python script for a plot generator with one of the following inputs: inspirational works, genre, text
-Due: 10/06
+1. Rough-draft python script for a plot generator with one of the following inputs: inspirational works, genre, text - due: 10/06
 
-2. Refine plot generator and implement more input dimensions
-Due: 10/27
+2. Refine plot generator and implement more input dimensions - due: 10/27
 
-3. Refine plot generator and implement human editing and AI rewrite
-Due: 11/10
+3. Refine plot generator and implement human editing and AI rewrite - due: 11/10
 
-4. Scene / character generation for plot points
-Due: 12/1
+4. Scene / character generation for plot points - due: 12/1
 
 ### Challenges
 
-Making a new neural net for a new problem!! I think designing an LLM with structured input and output will be a hurdle, as will prompt engineering for populating plot point scenes and characters.
+Fiddling with complex neural nets!!
+I think designing an LLM with structured input and output will be a hurdle; need to fit in multiple dimensions of input; for output need a small number of plot points that indeed encompass a full story arc
+Prompt engineering for populating plot point scenes and characters where text-generation usually interprets input text as the start of a sentence
+Investigating fine-tuning vs prompt engineering for multi-dimensional input
 
 ### Rules of Measure
 
