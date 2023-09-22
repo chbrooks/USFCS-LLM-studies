@@ -3,4 +3,4 @@
 	url = https://github.com/GuoFan1996/AI-Powered-Job-Autofill
 [submodule "robo-dm"]
 	path = robo-dm
-	url = ./robo-dm
+	url = https://github.com/ljendrusch/robo-dm.git
