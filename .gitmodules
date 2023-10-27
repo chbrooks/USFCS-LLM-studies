@@ -4,3 +4,6 @@
 [submodule "robo-dm"]
 	path = robo-dm
 	url = https://github.com/ljendrusch/robo-dm.git
+[submodule "wawa"]
+	path = wawa
+	url = git@github.com:dongKenny/wawa.git
