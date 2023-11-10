@@ -4,3 +4,6 @@
 [submodule "wawa"]
 	path = wawa
 	url = git@github.com:dongKenny/wawa.git
+[submodule "Job-Application-Autofill-Powered-by-ChatGPT"]
+	path = Job-Application-Autofill-Powered-by-ChatGPT
+	url = https://github.com/GuoFan1996/Job-Application-Autofill-Powered-by-ChatGPT
